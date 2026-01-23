@@ -23,7 +23,7 @@ ax.set_xlabel("x")
 ax.set_ylabel("f(x)")
 ax.legend()
 
-# Remove spines
+
 ax.spines["top"].set_color("none")
 ax.spines["right"].set_color("none")
 ax.spines["left"].set_color("none")

@@ -14,7 +14,6 @@ ax.set_title("Grayscale")
 ax.set_xticks([])
 ax.set_yticks([])
 
-# Remove spines
 ax.spines["top"].set_color("none")
 ax.spines["right"].set_color("none")
 ax.spines["left"].set_color("none")

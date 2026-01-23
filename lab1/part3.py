@@ -3,10 +3,9 @@ import matplotlib.image as mpimg
 import numpy as np
 
 
-
 img = mpimg.imread("boy.jpg")
 
-# Convert to grayscale using the luminosity method
+# Convert to grayscale
 gray_img = 0.299 * img[:, :, 0] + 0.587 * img[:, :, 1] + 0.114 * img[:, :, 2]
 
 fig, ax = plt.subplots(figsize=(8, 4))

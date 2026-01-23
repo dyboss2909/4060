@@ -6,14 +6,14 @@ def f(x):
     return 2 * x**2 + 44 * np.cos(x)
 
 
-# Task (a): 20 sample points from -5 to 10
+# Task a
 x = np.linspace(-5, 10, 20)
 y = f(x)
 
 fig, ax = plt.subplots(figsize=(8, 4))
 ax.scatter(x, y, color="black", label="20 samples")
 
-# Task (b): 200 interpolated points from -5 to 100
+# Task b
 x_dense = np.linspace(-5, 100, 200)
 y_dense = f(x_dense)
 ax.plot(x_dense, y_dense, color="red", linewidth=2, label="200-point curve")

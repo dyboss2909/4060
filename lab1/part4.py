@@ -19,16 +19,9 @@ axes[0].set_xticks([])
 axes[0].set_yticks([])
 
 axes[1].imshow(posterized)
-axes[1].set_title("Posterized (4 levels)")
+axes[1].set_title("Posterized")
 axes[1].set_xticks([])
 axes[1].set_yticks([])
-
-# Remove spines
-for ax in axes:
-    ax.spines["top"].set_color("none")
-    ax.spines["right"].set_color("none")
-    ax.spines["left"].set_color("none")
-    ax.spines["bottom"].set_color("none")
 
 
 plt.show()

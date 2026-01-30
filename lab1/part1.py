@@ -12,7 +12,7 @@ ax1.set_xlabel("x")
 ax1.plot(x, f, color="red", linestyle="--", linewidth=2)
 ax1.set_ylabel("f(x)")
 
-ax2 = ax1.twinx()
+#ax2 = ax1.twinx()
 ax2.plot(x, g, color="blue", linewidth=2)
 ax2.set_ylabel("g(x)")
 
